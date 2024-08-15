@@ -10,3 +10,6 @@ values_dict = {'a':123, 'b':True, 'c':'ORT'}
 
 print_params(*values_list)
 print_params(**values_dict)
+
+values_list_2 = [12, 'jk']
+print_params(*values_list_2)
